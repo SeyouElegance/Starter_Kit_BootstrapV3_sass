@@ -1,0 +1,15 @@
+{
+  "name": "starter_bootstrapv3",
+  "version": "1.0.0",
+  "description": "Starter Kit Bootstrap 3 with sass",
+  "main": "index.html",
+  "scripts": {
+    "start": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.26.3"
+  }
+}

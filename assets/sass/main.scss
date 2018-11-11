@@ -1,0 +1,37 @@
+/*
+
+  Projet : 
+  Author: Hakimi Semmy
+  Version : 0.0.1
+
+*/
+
+/* BASE - Base styles, variables, mixins, etc */
+
+@import "00-base/_resetCss";
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+/* LAYOUTS - Page layouts styles */
+
+
+
+
+/* MODULES - Induvidual site components */
+
+
+$mycolor: rgb(33, 155, 236);
+$myfont: 25px;
+
+body {
+background: $mycolor;
+}
+
+p{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  font-size: $myfont;
+}
